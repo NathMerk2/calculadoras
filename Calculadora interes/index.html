@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratica</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <label for="valor1">capital</label>
+        <input type="text" name="calc" id="valor1" autocomplete="off" autofocus>
+        <label for="valor2">Tasa interes</label>
+        <input type="text" name="calc" id="valor2" autocomplete="off">
+        <label for="valor3">Años</label>
+        <input type="text" name="calc" id="valor3" autocomplete="off">
+        <br><br>
+        <input type="button" name="calc" id="calcular" value="Calcular" onclick="interesComp(this)">
+        <br><br>
+        <div class="res">
+            <label for="res" id="res">Resultado: </label>
+            <p id="resultado">$0</p>
+        </div>
+    </div>
+</body>
+</html>
